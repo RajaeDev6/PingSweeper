@@ -6,26 +6,26 @@ This project was built to practice low-level networking, raw ICMP sockets, and G
 
 ---
 
-## ⚡ Features
+## Features
 
-- 🔍 **Full subnet sweep**  
+- **Full subnet sweep**  
   Scans every host in a CIDR range such as `192.168.1.0/24`.
 
-- 📡 **Raw ICMP sockets**  
+- **Raw ICMP sockets**  
   Builds and sends ICMP packets manually.
 
-- 🧵 **Concurrent scanning**  
+- **Concurrent scanning**  
   Uses goroutines for fast parallel scanning.
 
-- ⏱️ **Latency measurement**  
+- **Latency measurement**  
   Shows response times for active hosts.
 
-- 🧪 **Zero external dependencies**  
+- **Zero external dependencies**  
   Uses Go's standard library + `golang.org/x/net/icmp`.
 
 ---
 
-## 🧰 Tech Used
+## Tech Used
 
 - **Go (Golang)**  
 - **icmp / ipv4 packages** for raw packet handling  
@@ -34,7 +34,7 @@ This project was built to practice low-level networking, raw ICMP sockets, and G
 
 ---
 
-## 📝 How It Works
+## How It Works
 
 1. Accepts a subnet in CIDR format (e.g., `10.0.0.0/24`)  
 2. Iterates through all possible host IPs using bitwise logic  
