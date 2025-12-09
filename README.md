@@ -1,6 +1,6 @@
 # PingSweeper
 
-PingSweeper is a lightweight subnet scanning tool written in Go.  
+PingSweeper is a lightweight subnet scanning tool written in Go. 
 It scans an entire subnet by sending ICMP echo requests (pings) to every host and reports which ones respond.  
 This project was built to practice low-level networking, raw ICMP sockets, and Go’s concurrency model.
 
