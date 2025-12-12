@@ -45,3 +45,4 @@ This project was built to practice low-level networking, raw ICMP sockets, and G
 4. Prints all responding hosts along with response times  
 5. Concurrency makes the scan significantly faster  
 
+Note: Right now this is pretty basic, i should expand it"
